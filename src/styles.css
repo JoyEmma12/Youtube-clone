@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/*header styling starts*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.youtubenav {
+    width: 100%;
+}
+.youtubenav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    /*gap: 10px;*/
+}
+.youtubenav-list:first-child {
+    font-size: 20px;
+}
+.youtubenav-list li {
+    list-style: none;
+}
+.youtubelogo {
+    width: 100px;
+}
+.search-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchinput > span {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
